@@ -1,0 +1,14 @@
+﻿@*<h1>Yorum Ekleme Kısmı</h1>*@
+
+<div class="comment-top">
+    <h4 class="text-success"><b>Yorum Yapın!</b></h4>
+    <div class="comment-bottom">
+        <form action="/Comment/PartialAddComment/" method="post">
+            <input class="form-control" type="text" name="CommentUserName" placeholder="Adınız Soyadınız..." required="">
+            <input class="form-control" type="text" name="CommentTitle" placeholder="Mesaj Başlığını Giriniz..." required="">
+
+            <textarea class="form-control" name="CommentContent" placeholder="Mesaj İçeriği..." required=""></textarea>
+            <button type="submit" class="btn btn-success submit">Gönder</button>
+        </form>
+    </div>
+</div>

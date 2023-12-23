@@ -17,5 +17,6 @@ namespace EntityLayer.Concrete
         public string WriterMail { get; set; }//yazar mail alanı
         public string WriterPassword { get; set; }//yazar şifre alanı
         public bool WriterStatus { get; set; }
+        public List<Blog> Blogs { get; set; }
     }
 }
